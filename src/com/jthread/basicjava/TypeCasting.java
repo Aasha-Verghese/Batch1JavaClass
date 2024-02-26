@@ -6,9 +6,17 @@ public class TypeCasting {
 		int i=67;
 		char c='A';
 		
+		
+		System.out.println(c);
+		System.out.println(i);
+		
+		
+		i=c;
 		c=(char)i;
 		
 		System.out.println(c);
+		
+		System.out.println(i);
 		
 	}
 
